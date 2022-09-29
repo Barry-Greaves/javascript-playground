@@ -1,0 +1,62 @@
+@import url("https://use.typekit.net/aip2dea.css");
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'articulat-cf', sans-serif;
+}
+
+.hero-image {
+    background-image: url(/assets/images/kristopher-roller-zepnJQycr4U-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-title {
+    color: white;
+    font-size: 6rem;
+    font-weight: 900;    
+}
+
+.intro{
+    padding: 0 50px;
+}
+
+.intro-title {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.intro-text {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: 1s all ease-in-out;
+}
+
+.intro-appear {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.intro-text p {
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
